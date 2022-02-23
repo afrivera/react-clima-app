@@ -41,6 +41,8 @@ function App() {
       }
     }
     consultarApi();
+    // para saltar el error del effect de dependencias
+    // eslint-disable-next-line
   },[consultar])
 
   return (
